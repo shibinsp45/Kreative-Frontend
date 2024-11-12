@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Car Information and Booking</title>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Car Rentals</h1>
+    <h2>Your Gateway to Affordable Cars</h2>
+    <h3>Find Your Perfect Match</h3>
+</header>
+
+<section>
+    <p>Explore our range of vehicles, from <em>luxury sedans</em> to family-friendly SUVs. </p>
+</section>
+
+<section>
+    <h4>Car Booking Form</h4>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+          <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <br><br>
+        <h5>Select Car Model</h5>
+        <input type="radio" id="sedan" name="car_model" value="Sedan">
+        <label for="sedan">Sedan</label>
+
+        <input type="radio" id="suv" name="car_model" value="SUV">
+        <label for="suv">SUV</label>
+
+        <input type="radio" id="hatchback" name="car_model" value="Hatchback">
+        <label for="hatchback">Hatchback</label>
+
+        <h5>Additional Features</h5>
+        <input type="checkbox" id="sunroof" name="feature" value="Sunroof">
+        <label for="sunroof">Sunroof</label>
+
+        <input type="checkbox" id="leather-seats" name="feature" value="Leather Seats">
+        <label for="leather-seats">Leather Seats</label>
+
+        <input type="checkbox" id="gps" name="feature" value="GPS Navigation">
+        <label for="gps">GPS Navigation</label>
+
+        <h5>Preferred Car Color</h5>
+        <select name="color" id="color">
+            <option value="Red">Red</option>
+            <option value="Black">Black</option>
+            <option value="White">White</option>
+        </select>
+
+        <label>
+            <input type="checkbox" name="terms" required>
+            I agree to the terms and conditions
+        </label>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<section>
+    <h4>Car Models Gallery</h4>
+    <figure>
+        <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Jaguar/F-Pace/10644/1701246382378/front-left-side-47.jpg?impolicy=resize&imwidth=480" width="250" alt="Sedan Car">
+        <p>Sleek Sedan - Perfect for the city.</p>
+    </figure>
+    <figure>
+        <img src="https://media.zigcdn.com/media/model/2023/Feb/911.jpg" width="250"  alt="SUV Car">
+        <p>Rugged SUV - Ready for adventure.</p>
+    </figure>
+    <figure>
+        <img src="https://mediapool.bmwgroup.com/cache/P9/202309/P90522951/P90522951-the-bmw-i5-edrive40-driving-10-2023-2247px.jpg" width="250" alt="Hatchback Car">
+        <p>Bmw</p>
+    </figure>
+</section>
+
+<section>
+    <h4>Car Overview Video</h4>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sample_video_id" title="Car Models Overview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+
+<section>
+    <h4>Car Availability</h4>
+    <table>
+        <thead>
+            <tr>
+                <th>Car Model</th>
+                <th>Availability</th>
+                <th>Price per Day</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sedan</td>
+                <td>Available</td>
+                <td>$50</td>
+            </tr>
+            <tr>
+                <td>SUV</td>
+                <td>Limited</td>
+                <td>$70</td>
+            </tr>
+            <tr>
+                <td>Hatchback</td>
+                <td>Out of Stock</td>
+                <td>$40</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<footer>
+    <p>Contact us at info@carrentals.com | Call us: +123456789</p>
+</footer>
+
+</body>
+</html>

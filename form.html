@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Submit a form</title>
+</head>
+<body>
+    <h1>Select the form to enroll the course </h1>
+    <hr>
+    <form>
+        <!-- form tag is used to create a form in html -->
+       <!-- label tag is used to add label to the form -->
+       <!-- for attribute is used to specify which form element a label is bound to. -->
+       <!-- type attribute is used to specify the type of input  -->
+       <!-- placeholder attribute is used to add placeholder to the input field  -->
+       <label for="name">Name : </label>
+       <input type="text" id="name" placeholder="Enter your name here" required>
+       <br><br>
+       <label for="email">Email: </label>
+       <input type="email" placeholder="randomemail@gmail.com" required>
+       <br><br>
+       <label for="password">Password: </label>
+       <input type="password" placeholder="Enter your password here">
+       <br><br>
+       <label for="age">Please enter your Age </label>
+       <input type="number" placeholder="" min="18" max="25">
+       <br>
+       <br>
+
+    <label for="message">Enter your query here: </label>
+    <!-- text area is used to add text area to the form -->
+    <textarea name="text" ></textarea>
+         <br><br>
+    <label for="course">Choose a course : </label>
+?    <!-- select tag is used to create a drop down list -->
+    <select>
+        <!-- option tag is used to add options to the drop down list -->
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="javascript">JavaScript</option>
+        <option value="uiux">UI/UX</option>
+    </select>
+    <br>
+    <br>
+    <label for="gender">Choose your gender: </label>
+    <label>
+        <!-- radio tag is used to create radio buttons we can choose only one option from that -->
+        <input type="radio" name="gender" >Male
+        <input type="radio" name="gender" >Female
+        <input type="radio" name="gender" >Other
+    </label>
+    <br>
+    <br>
+    <label for="skills">Select your skills : </label>
+    <label>
+        <!-- checkbox  tag is used to create checkbox buttons we can choose multiple option from that -->
+        <input type="checkbox" name="skills" >Graphic Design
+        <input type="checkbox" name="gender" >ui/ux
+        <input type="checkbox" name="gender" >Web Development
+    </label>
+
+    <br><br>
+    <!-- button tag is used to create a button in html -->
+    <button type="submit" value="Submit">Submit</button>
+    <button type="submit ">Cancel</button>
+    </form>
+</body>
+</html>
