@@ -1,0 +1,91 @@
+CSS -Cascading Style Sheets
+Css is used to style the web pages and it is used to control the layout of multiple web pages all at once.
+
+
+Format for css styling
+--------------------------
+
+
+selector {
+    property: value;
+} 
+ 
+Using to link css to html file
+-----------------------------------
+
+ <link rel="stylesheet" href="style.css">
+
+
+
+Types of css 
+--------------------------
+
+1. Inline css
+
+   <h1 style="color: red;">Welcome to my css</h1>  
+
+2. Internal css
+
+    <style>
+    h1 {
+        color: red;
+    }
+    p {
+        border: 2px solid black;
+    }
+    </style>
+
+3. External css
+
+External css file link using 
+<link rel="stylesheet" href="style.css"> 
+
+Ex:
+
+  h1{
+    color: red;
+    }
+  
+
+Selectors
+----------------
+
+1. Universal selector =It selects all the elements on the page.
+*
+ {
+    color: red;
+    text-align: center;
+    bakcground-color: yellow;
+ }
+
+2. Type selector/Element Selector  =It selects all the elements of a particular type.
+
+h1 {
+    color: red;
+}
+
+P {
+    color: blue;
+}
+div {
+    color: green;
+}
+
+3.ID selector =It selects an element with a specific id attribute.
+
+#heading {
+    color: red;
+}
+
+4. Class selector =It selects an element with a specific class attribute.
+
+.student {
+    color: red;
+}
+
+4. Grouping selector =It selects all the elements with the same style definitions.
+
+h1, p, div ,h2 {
+    color: red;
+
+}
